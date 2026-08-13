@@ -8,167 +8,169 @@
 
 <style>
 
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    background:linear-gradient(135deg,#0b1728,#203b5d);
-    color:white;
-    min-height:100vh;
-    padding:20px;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0b1728, #203b5d);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* EN-TÊTE */
 
-header{
-    background:linear-gradient(135deg,#102a47,#1d4d78);
-    border-radius:20px;
-    padding:30px 20px;
-    text-align:center;
-    margin-bottom:22px;
-    box-shadow:0 8px 25px rgba(0,0,0,.30);
+header {
+    background: linear-gradient(135deg, #102a47, #1d4d78);
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 22px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.30);
 }
 
-header h1{
-    margin:0 0 10px;
-    font-size:36px;
+header h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
 }
 
-header p{
-    margin:0;
-    font-size:17px;
-    color:#dcecff;
+header p {
+    margin: 0;
+    font-size: 17px;
+    color: #dcecff;
 }
 
-.back{
-    display:inline-block;
-    margin-top:20px;
-    background:#2860ad;
-    color:white;
-    text-decoration:none;
-    padding:12px 20px;
-    border-radius:10px;
-    font-weight:bold;
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    background: #2860ad;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
-.back:hover{
-    background:#3578d0;
+.back:hover {
+    background: #3578d0;
 }
 
 /* INTRODUCTION */
 
-.intro{
-    background:#073b78;
-    border-radius:16px;
-    padding:20px;
-    margin-bottom:22px;
-    box-shadow:0 6px 20px rgba(0,0,0,.25);
+.intro {
+    background: #073b78;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 22px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.25);
 }
 
-.intro h2{
-    margin-top:0;
+.intro h2 {
+    margin-top: 0;
 }
 
-.intro p{
-    margin-bottom:0;
-    color:#e4efff;
+.intro p {
+    margin-bottom: 0;
+    color: #e4efff;
 }
 
 /* GRILLE */
 
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:18px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
 }
 
 /* CARTES */
 
-.card{
-    background:linear-gradient(145deg,#142d49,#0d2037);
-    border:1px solid rgba(255,255,255,.10);
-    border-radius:16px;
-    padding:22px;
-    box-shadow:0 7px 20px rgba(0,0,0,.30);
-    transition:.2s;
+.card {
+    background: linear-gradient(145deg, #142d49, #0d2037);
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 7px 20px rgba(0,0,0,.30);
+    transition: .2s;
 }
 
-.card:hover{
-    transform:translateY(-3px);
-    box-shadow:0 12px 28px rgba(0,0,0,.40);
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.40);
 }
 
-.icon{
-    font-size:40px;
-    margin-bottom:10px;
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
-.card h3{
-    margin:0 0 8px;
-    font-size:22px;
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 22px;
 }
 
-.card p{
-    min-height:48px;
-    color:#cbdcf0;
-    line-height:1.4;
+.card p {
+    min-height: 48px;
+    color: #cbdcf0;
+    line-height: 1.4;
 }
 
 /* BOUTONS */
 
-.button{
-    display:inline-block;
-    margin-top:10px;
-    background:#12c76b;
-    color:white;
-    text-decoration:none;
-    padding:11px 20px;
-    border-radius:9px;
-    font-weight:bold;
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    background: #12c76b;
+    color: white;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 9px;
+    font-weight: bold;
 }
 
-.button:hover{
-    background:#0ee879;
+.button:hover {
+    background: #0ee879;
 }
 
-.button span{
-    margin-left:5px;
+.button span {
+    margin-left: 5px;
 }
 
 /* PIED DE PAGE */
 
-footer{
-    margin-top:25px;
-    text-align:center;
-    color:#b8c9dc;
-    font-size:14px;
-    padding:20px;
+footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #b8c9dc;
+    font-size: 14px;
+    padding: 20px;
 }
 
-footer strong{
-    color:white;
+footer strong {
+    color: white;
 }
 
-@media(max-width:600px){
+/* MOBILE */
 
-    body{
-        padding:10px;
+@media(max-width:600px) {
+
+    body {
+        padding: 10px;
     }
 
-    header h1{
-        font-size:27px;
+    header h1 {
+        font-size: 27px;
     }
 
-    .grid{
-        grid-template-columns:1fr;
+    .grid {
+        grid-template-columns: 1fr;
     }
 
 }
@@ -189,7 +191,7 @@ Accès direct aux sites et services utiles aux passionnés de radio
 </p>
 
 <a class="back"
-href="https://14vd492-cloud.github.io/-Boite-a-outils-radio/">
+href="https://14vd492-cloud.github.io/Boite-a-outils-radio/">
 ⬅️ Retour à la boîte à outils
 </a>
 
@@ -343,7 +345,7 @@ Ouvrir <span>↗</span>
 </div>
 
 
-<!-- EXAMEN ANFR -->
+<!-- EXAMEN RADIOAMATEUR -->
 
 <div class="card">
 
@@ -352,7 +354,7 @@ Ouvrir <span>↗</span>
 <h3>Examen radioamateur</h3>
 
 <p>
-Informations et présentation officielle des épreuves radioamateur.
+Informations officielles concernant les épreuves radioamateur.
 </p>
 
 <a class="button"
@@ -400,7 +402,7 @@ Retrouver nos calculateurs et programmes pratiques pour la radio.
 </p>
 
 <a class="button"
-href="https://14vd492-cloud.github.io/-Boite-a-outils-radio/"
+href="https://14vd492-cloud.github.io/Boite-a-outils-radio/"
 target="_blank"
 rel="noopener">
 Ouvrir <span>↗</span>
@@ -409,7 +411,7 @@ Ouvrir <span>↗</span>
 </div>
 
 
-<!-- CALCULATEUR RESISTANCES -->
+<!-- CALCULATEUR DE RESISTANCES -->
 
 <div class="card">
 
@@ -431,20 +433,20 @@ Ouvrir <span>↗</span>
 </div>
 
 
-<!-- RADIO -->
+<!-- WEB SDR -->
 
 <div class="card">
 
-<div class="icon">📻</div>
+<div class="icon">🛰️</div>
 
-<h3>Ressources radio</h3>
+<h3>WebSDR</h3>
 
 <p>
-Un accès rapide aux ressources et informations utiles à la pratique de la radio.
+Écouter des récepteurs radio à distance et découvrir les signaux reçus dans différentes régions du monde.
 </p>
 
 <a class="button"
-href="https://www.qrz.com/"
+href="https://websdr.org/"
 target="_blank"
 rel="noopener">
 Ouvrir <span>↗</span>
@@ -453,20 +455,20 @@ Ouvrir <span>↗</span>
 </div>
 
 
-<!-- AUTRES OUTILS -->
+<!-- EQSL -->
 
 <div class="card">
 
-<div class="icon">🔗</div>
+<div class="icon">📻</div>
 
-<h3>Autres outils</h3>
+<h3>eQSL</h3>
 
 <p>
-Cette rubrique pourra accueillir progressivement les nouveaux services que nous découvrirons.
+Gérer ses cartes QSL électroniques et retrouver les confirmations de ses contacts radio.
 </p>
 
 <a class="button"
-href="https://www.voacap.com/"
+href="https://www.eqsl.cc/"
 target="_blank"
 rel="noopener">
 Ouvrir <span>↗</span>
