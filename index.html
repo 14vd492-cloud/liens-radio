@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liens Radio Rapides - Les Cibistes Libres Ardéchois</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:linear-gradient(135deg,#0b1728,#203b5d);
+    color:white;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* EN-TÊTE */
+
+header{
+    background:linear-gradient(135deg,#102a47,#1d4d78);
+    border-radius:20px;
+    padding:30px 20px;
+    text-align:center;
+    margin-bottom:22px;
+    box-shadow:0 8px 25px rgba(0,0,0,.30);
+}
+
+header h1{
+    margin:0 0 10px;
+    font-size:36px;
+}
+
+header p{
+    margin:0;
+    font-size:17px;
+    color:#dcecff;
+}
+
+.back{
+    display:inline-block;
+    margin-top:20px;
+    background:#2860ad;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.back:hover{
+    background:#3578d0;
+}
+
+/* INTRODUCTION */
+
+.intro{
+    background:#073b78;
+    border-radius:16px;
+    padding:20px;
+    margin-bottom:22px;
+    box-shadow:0 6px 20px rgba(0,0,0,.25);
+}
+
+.intro h2{
+    margin-top:0;
+}
+
+.intro p{
+    margin-bottom:0;
+    color:#e4efff;
+}
+
+/* GRILLE */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:18px;
+}
+
+/* CARTES */
+
+.card{
+    background:linear-gradient(145deg,#142d49,#0d2037);
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:16px;
+    padding:22px;
+    box-shadow:0 7px 20px rgba(0,0,0,.30);
+    transition:.2s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 28px rgba(0,0,0,.40);
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    margin:0 0 8px;
+    font-size:22px;
+}
+
+.card p{
+    min-height:48px;
+    color:#cbdcf0;
+    line-height:1.4;
+}
+
+/* BOUTONS */
+
+.button{
+    display:inline-block;
+    margin-top:10px;
+    background:#12c76b;
+    color:white;
+    text-decoration:none;
+    padding:11px 20px;
+    border-radius:9px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#0ee879;
+}
+
+.button span{
+    margin-left:5px;
+}
+
+/* PIED DE PAGE */
+
+footer{
+    margin-top:25px;
+    text-align:center;
+    color:#b8c9dc;
+    font-size:14px;
+    padding:20px;
+}
+
+footer strong{
+    color:white;
+}
+
+@media(max-width:600px){
+
+    body{
+        padding:10px;
+    }
+
+    header h1{
+        font-size:27px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>📻 LIENS RADIO RAPIDES</h1>
+
+<p>
+Accès direct aux sites et services utiles aux passionnés de radio
+</p>
+
+<a class="back"
+href="https://14vd492-cloud.github.io/Boite-a-outils-radio/">
+⬅️ Retour à la boîte à outils
+</a>
+
+</header>
+
+
+<div class="intro">
+
+<h2>⭐ Tous les liens en un clic !</h2>
+
+<p>
+Retrouvez ici les sites utiles pour la CB, le DX,
+la radioamateur, la propagation et la météo spatiale.
+</p>
+
+</div>
+
+
+<div class="grid">
+
+
+<!-- CLUSTER DX -->
+
+<div class="card">
+
+<div class="icon">📡</div>
+
+<h3>ClusterDX</h3>
+
+<p>
+Consulter les spots DX et suivre l'activité radio en temps réel.
+</p>
+
+<a class="button"
+href="https://www.cluster-dx.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- PSK REPORTER -->
+
+<div class="card">
+
+<div class="icon">🌍</div>
+
+<h3>PSK Reporter</h3>
+
+<p>
+Voir où les stations radio sont reçues dans le monde.
+</p>
+
+<a class="button"
+href="https://pskreporter.info/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- QRZ -->
+
+<div class="card">
+
+<div class="icon">🔎</div>
+
+<h3>QRZ.com</h3>
+
+<p>
+Rechercher des indicatifs et consulter les informations radio.
+</p>
+
+<a class="button"
+href="https://www.qrz.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- VOACAP -->
+
+<div class="card">
+
+<div class="icon">☀️</div>
+
+<h3>Propagation HF</h3>
+
+<p>
+Prévisions de propagation HF et possibilités de contacts DX.
+</p>
+
+<a class="button"
+href="https://www.voacap.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- METEO SPATIALE -->
+
+<div class="card">
+
+<div class="icon">🌞</div>
+
+<h3>Météo spatiale</h3>
+
+<p>
+Suivre l'activité solaire et les conditions pouvant influencer la propagation.
+</p>
+
+<a class="button"
+href="https://www.solarham.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- ANFR -->
+
+<div class="card">
+
+<div class="icon">📜</div>
+
+<h3>ANFR</h3>
+
+<p>
+Informations officielles françaises concernant les radioamateurs et les fréquences.
+</p>
+
+<a class="button"
+href="https://www.anfr.fr/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- EXAMEN ANFR -->
+
+<div class="card">
+
+<div class="icon">🎓</div>
+
+<h3>Examen radioamateur</h3>
+
+<p>
+Informations et présentation officielle des épreuves radioamateur.
+</p>
+
+<a class="button"
+href="https://www.anfr.fr/gerer/radioamateurs/presentation-des-epreuves-dexamen"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- FACEBOOK -->
+
+<div class="card">
+
+<div class="icon">👥</div>
+
+<h3>Les Cibistes Libres Ardéchois</h3>
+
+<p>
+Retrouver notre groupe Facebook et partager notre passion de la radio.
+</p>
+
+<a class="button"
+href="https://www.facebook.com/share/g/19zNAAf5on/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- BOITE A OUTILS -->
+
+<div class="card">
+
+<div class="icon">🧰</div>
+
+<h3>Boîte à outils Radio</h3>
+
+<p>
+Retrouver nos calculateurs et programmes pratiques pour la radio.
+</p>
+
+<a class="button"
+href="https://14vd492-cloud.github.io/Boite-a-outils-radio/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- CALCULATEUR RESISTANCES -->
+
+<div class="card">
+
+<div class="icon">🔧</div>
+
+<h3>Calculateur de résistances</h3>
+
+<p>
+Lire les couleurs d'une résistance ou retrouver les couleurs à partir de sa valeur.
+</p>
+
+<a class="button"
+href="https://14vd492-cloud.github.io/calculateur-resistances/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- RADIO -->
+
+<div class="card">
+
+<div class="icon">📻</div>
+
+<h3>Ressources radio</h3>
+
+<p>
+Un accès rapide aux ressources et informations utiles à la pratique de la radio.
+</p>
+
+<a class="button"
+href="https://www.qrz.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+<!-- AUTRES OUTILS -->
+
+<div class="card">
+
+<div class="icon">🔗</div>
+
+<h3>Autres outils</h3>
+
+<p>
+Cette rubrique pourra accueillir progressivement les nouveaux services que nous découvrirons.
+</p>
+
+<a class="button"
+href="https://www.voacap.com/"
+target="_blank"
+rel="noopener">
+Ouvrir <span>↗</span>
+</a>
+
+</div>
+
+
+</div>
+
+
+<footer>
+
+📡 <strong>Les Cibistes Libres Ardéchois</strong>
+
+<br><br>
+
+Les liens s'ouvrent dans un nouvel onglet.
+
+<br>
+
+Bonne navigation et bons QSO à toutes et à tous ! 📻
+
+<br><br>
+
+© 2026 — Les Cibistes Libres Ardéchois
+
+</footer>
+
+</div>
+
+</body>
+</html>
